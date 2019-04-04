@@ -11,12 +11,6 @@ body {
 }
 
 
-            .selected {
-                color:red;
-                font-weight:bold;
-            }
-
-
 #header {
     background-color: #ff847c;
     height: 70px;
@@ -37,7 +31,7 @@ body {
     grid-column: 3/4;
     font-family: 'Abril Fatface', cursive;
     font-size: 5rem;
-    line-height: 0.85
+    line-height: 0.8
     
 }
 
@@ -190,7 +184,7 @@ body {
 }
 
 #artsection {
-    height: 650px;
+    height: 640px;
     background-color: #a1c2a0;
 }
 
@@ -204,7 +198,7 @@ body {
 
 #arttop img {
     width: 500px;
-    padding-top: 50px;
+    padding-top: 40px;
     padding-left: 35px
 }
 
@@ -234,7 +228,7 @@ body {
     max-width: 800px;
     display: grid;
     margin: auto;
-    grid-template-columns: 60% auto;
+    grid-template-columns: 55% auto;
     padding-left: 40px;
     padding-right: 40px;
 }
@@ -259,7 +253,7 @@ body {
     display: grid;
     padding-top: 40px;
     margin: auto;
-    grid-template-columns: 1fr 1fr 1fr;   
+    grid-template-columns: 26% 20% auto;   
 }
 
 #fashionbottom img {
@@ -267,7 +261,7 @@ body {
 }
 
 #fashionsection2 {
-    height: 650px;
+    height: 640px;
     background-color: #2a363b;
 
 }
@@ -347,18 +341,9 @@ a:hover {
 
 @media screen and (max-width:700px) {
     
-    .logo{
-        font-size: 3.2rem;
-    }
-    
     #subtitle{
         text-align: center;
     }
-    
-    #designtop {
-        grid-template-columns: auto;
-    }
-}
 
 
 
