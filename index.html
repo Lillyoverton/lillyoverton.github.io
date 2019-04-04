@@ -1,61 +1,202 @@
-<html>
-    
+<!DOCTYPE html>
+
+<html lang="en">
+
     <head>
+        <meta charset="utf-8" />
+        <title>L/O</title>
+        <link rel="stylesheet" href="styles.css"/>
         <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
         <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
     </head>
     
-    <style>
-        html {
-            scroll-behaviour: smooth;
-        }
-
-        #nav {
-            position: fixed;
-            background-color: white;
-            width: 100%;
-            top: 0;
-            padding: 10px;
-        }
-        #rugby, #cricket, #soccer{
-            padding-top:45px;
-        }
-
-    </style>
-
-    <div id="nav">
-        <a href="#rugby">RUGBY</a>
-        <a href="#cricket">CRICKET</a>
-        <a href="#soccer">SOCCER</a>
-    </div> 
-
     <body>
-        <a data-fancybox="gallery" href="img/big_1.jpg">
-           <img src="img/small_1.jpg" />
-        </a>
-        <a data-fancybox="gallery" href="img/big_2.jpg">
-            <img src="img/small_2.jpg" />
-        </a>
-        <a data-fancybox="gallery" href="img/big_3.jpg">
-            <img src="img/small_3.jpg" />
-        </a>
-        <a data-fancybox="gallery" href="img/big_4.jpg">
-            <img src="img/small_4.jpg" />
-        </a>
-        <a data-fancybox="gallery" href="img/big_5.jpg">
-            <img src="img/small_5.jpg" />
-        </a>
-
-        <h1 id="rugby">RUGBY</h1>
-        blah <br /> blah <br /> blah <br /> blah <br /> blah <br /> blah <br /> blah <br /> blah <br /> blah <br /> blah <br /> blah <br /> blah <br /> blah <br /> blah <br /> blah <br /> blah <br /> blah <br /> blah <br /> blah <br /> blah <br /> blah <br /> blah <br /> blah <br /> blah <br /> blah <br /> blah <br /> blah <br /> blah <br /> blah <br /> blah <br /> blah <br /> blah <br /> blah <br /> blah <br /> blah <br /> blah <br /> blah <br /> blah <br /> blah <br /> blah <br /> blah <br /> blah <br /> blah <br /> blah <br /> 
-
-        <h1 id="cricket">CRICKET</h1>
-        blah <br /> blah <br /> blah <br /> blah <br /> blah <br /> blah <br /> blah <br /> blah <br /> blah <br /> blah <br /> blah <br /> blah <br /> blah <br /> blah <br /> blah <br /> blah <br /> blah <br /> blah <br /> blah <br /> blah <br /> blah <br /> blah <br /> blah <br /> blah <br /> blah <br /> blah <br /> blah <br /> blah <br /> blah <br /> blah <br /> blah <br /> blah <br /> blah <br /> blah <br /> blah <br /> blah <br /> blah <br /> blah <br /> blah <br /> blah <br /> blah <br /> blah <br /> blah <br /> blah <br />
-
-        <h1 id="soccer">SOCCER</h1>
-        blah <br /> blah <br /> blah <br /> blah <br /> blah <br /> blah <br /> blah <br /> blah <br /> blah <br /> blah <br /> blah <br /> blah <br /> blah <br /> blah <br /> blah <br /> blah <br /> blah <br /> blah <br /> blah <br /> blah <br /> blah <br /> blah <br /> blah <br /> blah <br /> blah <br /> blah <br /> blah <br /> blah <br /> blah <br /> blah <br /> blah <br /> blah <br /> blah <br /> blah <br /> blah <br /> blah <br /> blah <br /> blah <br /> blah <br /> blah <br /> blah <br /> blah <br /> blah <br /> blah <br />
-
+    
+        <div id="header">
+            <div class="nav">
+                <div class="links">
+                    <a href="#about">About</a>
+                </div>
+                <div class="links">
+                     <a href="#designtop">Design</a>
+                </div>
+                    <div class="logo">L/O</div>
+                <div class= "links">
+                    <a href="#artsection">Art</a>
+                </div>
+                <div class="links">
+                    <a href="#fashionsection">Fashion</a> 
+                </div>
+            </div>
+        </div>
+        
+        <div id="about">
+            <div id="container">
+                <div id="lilly">Lilly</div>
+                <div id=subtitle>Student / Designer</div>
+            </div>
+            <div id="overton">Overton</div>
+            <div id="description">I’m a first year design student at Massey University in Wellington. On this site you’ll find some of my work from previous years, aswell as some of my first year projects.</div>
+        </div>
+        
+        <div class=designsection>
+            <div id="designtop">
+                <div>
+                    <a data-fancybox="designgallery" href="img/paintcollage.jpg"><img src="img/paintcollage.jpg" />
+                    </a>
+                </div>
+                <div>
+                    <div class="title">Design</div>
+                    <div class="description"><h1>Collage (first year screen)</h1>
+                    <p>For my first screen project, I explored my Mihimihi through collage, both handmade and digital.</p></div>
+                </div>
+            </div>
+            <div id="designbottom">
+                <a data-fancybox="designgallery" href="img/sunsetcollage.jpg"><img src="img/sunsetcollage.jpg"></a>
+                <a data-fancybox="designgallery" href="img/teapotcollage.jpg">
+                <img src="img/teapotcollage.jpg">
+                </a>
+                <a data-fancybox="designgallery" href="img/wavycollage.jpg">
+                <img src="img/wavycollage.jpg">
+                </a>
+            </div>
+        </div>
+        
+        <div id="designsection2">          
+            <div id="logotop">
+                <div id="logodescription">
+                    <h1>Logo Design (Year 12 Design)</h1>
+                    <p>For year 12 design, I came up with a range of logo designs for 'Waglands' doggy day care.</p>
+                </div>
+                <div id="logo1">
+                    <a data-fancybox="logogallery" href="img/logo1_small.jpg">
+                    <img src="img/logo1_small.jpg"/>
+                    </a>
+                </div>
+            </div>
+            <div id="logobottom">
+                <a data-fancybox="logogallery" href="img/logo2_small.jpg">
+                <img src="img/logo2_small.jpg"/>
+                </a>
+                <a data-fancybox="logogallery" href="img/logo3_small.jpg">
+                <img src="img/logo3_small.jpg"/>
+                </a>
+                <a data-fancybox="logogallery" href="img/logo4_small.jpg">
+                <img src="img/logo4_small.jpg"/>
+                </a>
+                <a data-fancybox="logogallery" href="img/logo5_small.jpg">
+                <img src="img/logo5_small.jpg"/>
+                </a>
+                <a data-fancybox="logogallery" href="img/logo6_small.jpg">
+                <img src="img/logo6_small.jpg"/>
+                </a>
+                <a data-fancybox="logogallery" href="img/logo7_small.jpg">
+                <img src="img/logo7_small.jpg"/>
+                </a>
+                <a data-fancybox="logogallery" href="img/logo8_small.jpg">
+                <img src="img/logo8_small.jpg"/>
+                </a>
+                <a data-fancybox="logogallery" href="img/logo9_small.jpg">
+                <img src="img/logo9_small.jpg"/>
+                </a>
+            </div>    
+        </div>
+        
+        <div id="artsection">
+        <div id="arttop">
+                <div>
+                    <div class="title">Art</div>
+                    <div class="description"><h1>Painting</h1>
+                    <p>I've done a range of paintings, including portrait and nature.</p></div>
+                </div>
+                <div>
+                    <a data-fancx="artgallery" href="img/year11painting.jpg"><img src="img/painting1_small.jpg" />
+                    </a>
+                </div>
+            </div>
+            <div id="artbottom">
+                <a data-fancybox="artgallery" href="img/portrait_1.jpg"><img src="img/painting2_small.jpg"></a>
+                <a data-fancybox="artgallery" href="img/flowerpainting.jpg">
+                <img src="img/painting3_small.jpg">
+                </a>
+                <a data-fancybox="artgallery" href="img/portrait_2.jpg">
+                <img src="img/painting4_small.jpg">
+                </a>
+            </div>
+        
+        </div>
+        
+        <div id="fashionsection">
+            <div id="fashiontop">
+                <div>
+                <a data-fancybox="fashiongallery"
+                   href="img/concepts1.jpg"><img
+                   src="img/concepts1.jpg"></a>
+                </div>
+                <div>
+                    <div class="title">Fashion</div>
+                    <div class="description">
+                        <h1>Zero waste fashion (year 13)</h1>
+                        <p>For year 13 fashion I created garments made entirely from repurposed scrap fabric to challenge fabric waste in the fashion industry.</p>
+                    </div>
+                </div>
+            </div>
+            <div id="fashionbottom">
+                <a data-fancybox="fashiongallery"
+                   href="img/garment1.JPG"><img
+                   src="img/garment1.JPG"></a>
+                <a data-fancybox="fashiongallery"
+                   href="img/garment1_2.JPG"><img
+                   src="img/garment1_2.JPG"></a>
+                <a data-fancybox="fashiongallery"
+                   href="img/developments1.jpg"><img
+                   src="img/developments1.jpg"></a>
+            </div>
+        </div>
+        
+        <div id="fashionsection2">
+            <div id="section2container">
+                <div id="section2left">
+                    <div class="description">
+                        <h1>Formal Dress (year 12)</h1>
+                        <p>I designed and constructed my friend’s dress for the school ball.</p>
+                        <a data-fancybox="fashiongallery2"
+                        href="img/dress1_small.jpg"><img
+                        src="img/dress1_small.jpg"></a>
+                    </div>
+                </div>
+                <div id="section2right">
+                    <div>
+                        <a data-fancybox="fashiongallery2"
+                           href="img/dressdesigns.jpg"><img
+                           src="img/dressdesigns.jpg"></a>
+                    </div>
+                    <div id="bottomimages">
+                        <a data-fancybox="fashiongallery2"
+                           href="img/dress2_small.jpg"><img
+                           src="img/dress2_small.jpg"></a>
+                        <a data-fancybox="fashiongallery2"
+                           href="img/dress3_small.jpg"><img
+                           src="img/dress3_small.jpg"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div id="footer">
+            <div id="icons">
+                <a href="Socials.html"><img src="img/fbicon.jpg"/></a>
+                <a href="Socials.html"><img src="img/instaicon.jpg"/></a>
+                <h1 id="email">Lillyoverton1@gmail.com</h1>
+            </div>
+        </div>
+        
     </body>
     
-</html>
+    
+<!--- references
+line height crop: https://medium.com/codyhouse/line-height-crop-a-simple-css-formula-to-remove-top-space-from-your-text-9c3de06d7c6f
+
+link bold ? https://www.smashingmagazine.com/2010/02/the-definitive-guide-to-styling-web-links/
+/>
